@@ -1,4 +1,15 @@
- const express = require("express");
+/*********************************************************************************
+*  WEB422 – Assignment 1
+*  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  
+*  No part of this assignment has been copied manually or electronically from any other source
+*  (including web sites) or distributed to other students.
+* 
+*  Name: Jithin Biju Student ID:153532213 Date: 19/01/2023
+*  Cyclic Link: https://lazy-pear-lizard-cape.cyclic.app
+*
+********************************************************************************/ 
+
+const express = require("express");
  const cors = require("cors");
  const MoviesDB = require("./modules/moviesDB.js");
  const db = new MoviesDB();      // to create a new "db" instance to work with the data
